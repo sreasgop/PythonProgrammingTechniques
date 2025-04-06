@@ -4,8 +4,8 @@
 
 
 # CODE:
-celcius = float(input("Enter temperature in Celsius: "))
-f = (celcius * 1.8) + 32
+celsius = float(input("Enter temperature in Celsius: "))
+f = (celsius * 1.8) + 32
 print(f"Temperature in Fahrenheit: {f}")
 
 
