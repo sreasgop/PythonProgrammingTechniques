@@ -1,5 +1,5 @@
 # QUESTION:
-# Write a program to calculate simple interest.
+# Write a program to calculate simple interest (principle, time and rate of interest will be user input).
 
 
 
