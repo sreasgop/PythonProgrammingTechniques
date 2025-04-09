@@ -15,7 +15,12 @@ d = b**2 - 4*a*c
 root1 = (-b + cmath.sqrt(d)) / (2 * a)
 root2 = (-b - cmath.sqrt(d)) / (2 * a)
 
-print(f"Roots are: {root1} and {root2}")
+if d == 0:
+    print(f"Double root: {root1.real:.2f}")
+elif d > 0:
+    print(f"Two real roots: {root1.real:.2f}, {root2.real:.2f}")
+else:
+    print(f"Complex roots: {root1:.2f}, {root2:.2f}")
 
 
 
@@ -23,4 +28,4 @@ print(f"Roots are: {root1} and {root2}")
 # Enter a: 1
 # Enter b: -5
 # Enter c: 6
-# Roots are: (3+0j) and (2+0j)
+# Two real roots: 3.00, 2.00
