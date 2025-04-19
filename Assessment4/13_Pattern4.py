@@ -1,5 +1,9 @@
 # QUESTION:
 # Write a program to print the following pattern for n number of rows (value of n should be user input)
+ #    *
+ #   ***
+ #  *****
+ # *******    (for n=4)
 
 
 
