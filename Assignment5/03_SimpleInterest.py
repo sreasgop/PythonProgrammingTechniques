@@ -21,7 +21,7 @@ print("Simple Interest (principle only):", simple_interest(principal=p))
 
 p = float(input("\nEnter principal amount: "))
 t = int(input("Enter time in years: "))
-print("Simple Interest (principal and time):", simple_interest(principal=p, time=t))
+print("Simple Interest (principle and time):", simple_interest(principal=p, time=t))
 
 # Passing all three arguments
 p = float(input("\nEnter principal amount: "))
@@ -46,7 +46,7 @@ print("Simple Interest (all arguments):", simple_interest(principal=p, time=t, r
 #
 # Enter principal amount: 100000
 # Enter time in years: 2
-# Simple Interest (principal and time): 20000.0
+# Simple Interest (principle and time): 20000.0
 #
 # Enter principal amount: 100000
 # Enter time in years: 1
