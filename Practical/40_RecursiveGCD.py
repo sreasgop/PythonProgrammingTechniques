@@ -20,3 +20,6 @@ print(f"GCD of {num1} and {num2}: {gcd(num1, num2)}")
 
 
 # OUTPUT:
+# Enter first number: 25
+# Enter second number: 45
+# GCD of 25 and 45: 5
