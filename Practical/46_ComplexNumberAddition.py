@@ -1,5 +1,5 @@
 # QUESTION:
-# Frame a class Complex with object variable real and imag. Create two complex numbers and display them in the format a+bi. Add those two complex numbers to get a resultant third complex number and display it in the format a I bi.
+# Frame a class Complex with object variable real and imag. Create two complex numbers and display them in the format a+bi. Add those two complex numbers to get a resultant third complex number and display it in the format a + bi.
 
 
 
