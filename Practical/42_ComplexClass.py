@@ -5,13 +5,12 @@
 
 # CODE:
 class Complex:
-    
+
     count = 0
 
     def __init__(self, real, imag):
         self.real = real 
         self.imag = imag
-        self.sign = "+" if self.imag >= 0 else "-"
         Complex.count += 1
 
     @classmethod
@@ -19,12 +18,15 @@ class Complex:
         return f"\nTotal No. of Complex Numbers: {cls.count}"
 
     def __str__(self):
-        return f"{self.real} {self.sign} {abs(self.imag)}i"
+        sign = '+' if self.imag >= 0 else '-'
+        return f"{self.real} {sign} {abs(self.imag)}i"
+
 
 c1 = Complex(3, 4)
 c2 = Complex(1, -2)
 c3 = Complex(0, 7)
 
+print("Complex Numbers:")
 print(c1)
 print(c2)
 print(c3)
@@ -34,9 +36,9 @@ print(Complex.get_count())
 
 
 # OUTPUT:
+# Complex Numbers:
 # 3 + 4i
 # 1 - 2i
 # 0 + 7i
 #
 # Total No. of Complex Numbers: 3
-
