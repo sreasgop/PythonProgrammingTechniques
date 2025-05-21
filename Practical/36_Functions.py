@@ -33,7 +33,7 @@ def f1():
 
 
 def f2():
-    print("f2() called")
+    print("f2() called")
     f5()
     f6()
     print("\n")
